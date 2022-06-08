@@ -21,7 +21,10 @@ body {
     flex-grow: 0;
     padding: 1rem;
 }
- 
+
+h2 {
+    font-size: 50px;
+}
 section {
   width: 70%;
   margin: 20px auto;
@@ -33,7 +36,18 @@ section {
     background-color: white;
 }
 
-.footer {
+.work {
+    font-size: 20px;
+    text-align: center;
     background-color: white;
+}
+
+.footer {
+    background-color: lightgray;
     display: flexbox;
+}
+
+a {
+    color: black;
+    font-weight: bold;
 }
