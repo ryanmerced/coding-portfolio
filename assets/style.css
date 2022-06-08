@@ -1,11 +1,11 @@
 body {
     background-color: bisque;
-    font-family:'Calibri';
+    font-family:'Sans Serif';
 }
 
 .row {
     display: flex;
-    background-color: whitesmoke;
+    background-color: lightgrey;
 }
 
 .col{ 
@@ -20,4 +20,20 @@ body {
 .nav .col {
     flex-grow: 0;
     padding: 1rem;
+}
+ 
+section {
+  width: 70%;
+  margin: 20px auto;
+  background-color: white;
+}
+.aboutme {
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.footer {
+    background-color: white;
+    display: flexbox;
 }
