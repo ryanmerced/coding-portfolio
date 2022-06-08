@@ -1,0 +1,23 @@
+body {
+    background-color: bisque;
+    font-family:'Calibri';
+}
+
+.row {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.col{ 
+    flex: 1 0 0%;
+}
+
+.nav {
+    justify-content: right;
+    align-items: center;
+}
+
+.nav .col {
+    flex-grow: 0;
+    padding: 1rem;
+}
