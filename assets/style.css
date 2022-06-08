@@ -45,6 +45,7 @@ section {
 .footer {
     background-color: lightgray;
     display: flexbox;
+    font-size: 20px;
 }
 
 a {
